@@ -11,6 +11,7 @@ const submissionBtn = document.getElementById("submission-btn")
 
 const resolution = "learn to practice pranayama breathing techniques";
 const currentYear = "2024";
+let willMeetResolution = true;
 
 function updateYear() {
     // Update this function
