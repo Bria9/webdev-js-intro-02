@@ -9,6 +9,9 @@ const submissionBtn = document.getElementById("submission-btn")
 
 // Declare your variables here.
 
+const resolution = "learn to practice pranayama breathing techniques";
+
+
 function updateYear() {
     // Update this function
 
