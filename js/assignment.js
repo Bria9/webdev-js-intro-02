@@ -9,31 +9,33 @@ const submissionBtn = document.getElementById("submission-btn")
 
 // Declare your variables here.
 
-const resolution = "learn to practice pranayama breathing techniques";
-const currentYear = "2024";
-let willMeetResolution = true;
+const resolution = "Become more positive, practice pranayama, draw more, become a better developer etc.";
+const currentYear = "2025";
+let willMeetResolution = "I hope so...😅";
 
 function updateYear() {
     // Update this function
-
+ yearElement.innerText = currentYear;
 }
 
 function updateResolution() {
     // Update this function 
-
+resolutionElement.innerText = resolution;
 }
 
 function updateWillMeetResolution() {
     // Update this function
-
+willMeetResolutionElement.innerText = willMeetResolution;
 }
 
 function render() {
     // Update this function
-
+    updateYear();
+    updateResolution();
+    updateWillMeetResolution();
 }
 
 submissionBtn.addEventListener("click", function () {
     // Update this function
-
+ render();
 })
