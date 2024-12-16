@@ -2,7 +2,7 @@
 // that are not declared
 "use strict"
 
-// string data type
+/* // string data type
 
 const nickName = "Bri";
 console.log(`Nickname: ${nickName}`);            // Output: Bri
@@ -52,5 +52,5 @@ const largeNum = 38933158993777n;
 console.log(`largeNum: ${largeNum}`);                    // Output: 38933158993777
 console.log(`is a: ${typeof largeNum} \n`);              // Output bigint
 
-//
+ */
 
